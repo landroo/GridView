@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlidingDrawer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slidingDrawer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:content="@+id/bottom_content"
+    android:handle="@+id/bottom_handle"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@id/bottom_handle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/handle_bottom" />
+
+    <LinearLayout
+        android:id="@id/bottom_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/drawerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cell:"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/drawerEditView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            tools:textColor="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@id/bottom_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/addImageView"
+                android:src="@drawable/ic_shortcut_add_circle"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/deleteImageView"
+                android:src="@drawable/ic_shortcut_cancel"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/loadImageView"
+                android:src="@drawable/ic_shortcut_open_in_browser"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</SlidingDrawer>

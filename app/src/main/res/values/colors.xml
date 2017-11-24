@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light_red">#AA0000</color>
+    <color name="dark_red">#AA0000</color>
+    <color name="light_purple">#FF995DAE</color>
+    <color name="dark_purple">#FF412651</color>
+    <color name="light_green">#00AA00</color>
+    <color name="dark_green">#88FF88</color>
+    <color name="light_blue">#8888FF</color>
+    <color name="dark_blue">#0000AA</color>
+    <color name="lv_color_hint">#00000000</color>
+    <color name="color_transparent">#00000000</color>
+</resources>
