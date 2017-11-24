@@ -509,7 +509,7 @@ public class GridViewMainActivity extends Activity implements UIInterface {
             gridView.postInvalidate();
         }
 
-        if((dx != 0 || dy != 0) && longPress < 50) {
+        if((dx < -2 || dx > 2 || dy < -2 || dy > 2) && longPress < 50) {
             longPress = 60;
             //Log.i(TAG, "cancel longpress");
         }
