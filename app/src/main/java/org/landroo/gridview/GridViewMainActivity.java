@@ -757,6 +757,9 @@ public class GridViewMainActivity extends Activity implements UIInterface {
                     int displayWidth = display.getWidth();
                     int displayHeight = display.getHeight();
 
+                    xPos = 0;
+                    yPos = 0;
+
                     deskWidth = cellClass.getWidth() + 160;
                     deskHeight = cellClass.getHeight() + 160;
                     scaleView.setSize(displayWidth, displayHeight, deskWidth, deskHeight);
